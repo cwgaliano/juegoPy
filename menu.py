@@ -10,3 +10,19 @@ def mainMenu():
 	print("	2) Agregar palabra")
 	print("	3) Salir")
 	print("")
+	
+def addMenu():
+    system("clear")
+    
+    print("Menu para agregar palabras")
+    print("==== ==== ======= ========")
+    print()
+    
+def gameMenu():
+    system("clear")
+    
+    print("     Juego del ahorcado")
+    print("     ===== === ========")
+    print()
+    print()
+    

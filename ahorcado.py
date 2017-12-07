@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 from menu import mainMenu
-from jugar import game 
+from juego import game 
 from saveLoads import *
+from agregarPalabra import addWord
 
 listWords = load()
 
@@ -14,9 +15,9 @@ while True:
 	if option == 3 :
 		break
 	elif option == 2:
-		print("hacer algo")
+		listWords = addWord(listWords)
 	elif option == 1:
-		print("hacer lo otro")
+		game(listWords)
 	
 	
 save(listWords)
