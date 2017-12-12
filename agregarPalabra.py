@@ -1,5 +1,6 @@
 from menu import addMenu
 
+
 def addWord(listWords):
 
     while True:

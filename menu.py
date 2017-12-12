@@ -26,3 +26,47 @@ def gameMenu():
     print()
     print()
     
+def winner():
+    
+    system("clear")
+    
+    print("")
+    print("************* === ====== **************")
+    print("************* HAS GANADO **************") 
+    print("************* === ====== **************")
+    print("")
+ 
+def loser():
+    
+    system("clear")
+    
+    print("")
+    print("************* === ====== **************")
+    print("************* HAS PERDIDO **************") 
+    print("************* === ====== **************")
+    print("") 
+
+def menuHanged():
+    
+    system("clear")
+    
+    print("PARA RENDIRSE ESCRIBA (SI)")
+    print()
+    print("I---------------")
+    print("I              1")
+    print("I              0")
+    print("I")
+    print("I")
+    print("I")
+    print("I")
+    print("I")
+    print("I")
+    print("I")
+    print("I")
+    
+    
+    
+    
+    
+    
+    
